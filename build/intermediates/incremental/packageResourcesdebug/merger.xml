@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/caro/StudioProjects/CaroApplication/googleProgressBarmasterlibrary/src/main/res"><file path="/home/caro/StudioProjects/CaroApplication/googleProgressBarmasterlibrary/src/main/res/values/colors.xml" qualifiers=""><color name="green">#FF34A350</color><color name="red">#FFC93437</color><color name="blue">#FF375BF1</color><color name="yellow">#FFF7D23E</color></file><file path="/home/caro/StudioProjects/CaroApplication/googleProgressBarmasterlibrary/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="GoogleProgressBar">
+        <attr format="enum" name="type">
+            <enum name="folding_circles" value="0"/>
+            <enum name="google_music_dices" value="1"/>
+            <enum name="nexus_rotation_cross" value="2"/>
+            <enum name="chrome_floating_circles" value="3"/>
+        </attr>
+        <attr format="reference" name="colors"/>
+    </declare-styleable></file><file path="/home/caro/StudioProjects/CaroApplication/googleProgressBarmasterlibrary/src/main/res/values/defaults.xml" qualifiers=""><integer-array name="google_colors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </integer-array><integer name="default_type">0</integer></file></source><source path="/home/caro/StudioProjects/CaroApplication/googleProgressBarmasterlibrary/build/generated/res/rs/debug"/><source path="/home/caro/StudioProjects/CaroApplication/googleProgressBarmasterlibrary/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug"><source path="/home/caro/StudioProjects/CaroApplication/googleProgressBarmasterlibrary/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="GoogleProgressBar"><attr format="enum" name="type"><enum name="folding_circles" value="0"/><enum name="google_music_dices" value="1"/><enum name="nexus_rotation_cross" value="2"/><enum name="chrome_floating_circles" value="3"/></attr><attr format="reference" name="colors"/></declare-styleable></configuration></mergedItems></merger>
